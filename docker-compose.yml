@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file:
+      - path: .env.example
+      - path: .env
+        required: false
+    ports: ["8000:8000"]
+    volumes: ["./storage:/app/storage"]
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports: ["5173:80"]
+    depends_on: [backend]
+

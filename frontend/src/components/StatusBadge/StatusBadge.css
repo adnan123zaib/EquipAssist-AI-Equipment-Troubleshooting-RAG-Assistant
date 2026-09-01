@@ -1,0 +1,1 @@
+.status{font-size:12px;text-transform:capitalize;border:1px solid var(--border-soft);padding:5px 9px;border-radius:99px}.status-indexed{color:var(--success);background:rgba(104,178,160,.1)}.status-failed{color:var(--danger);border-color:rgba(233,130,130,.4)}.status-extracting,.status-chunking,.status-embedding{color:var(--warning)}

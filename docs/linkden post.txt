@@ -1,0 +1,28 @@
+🚀 Project: Equipment Troubleshooting RAG Assistant
+
+I’m excited to share my Equipment Troubleshooting RAG Assistant, an AI-powered system that uses technical equipment manuals to provide grounded, step-by-step troubleshooting guidance.
+
+The system combines PDF ingestion, hybrid retrieval, LangGraph-based agentic workflow, evidence evaluation, confidence scoring, and source citations to reduce unsupported AI responses.
+
+Key Features
+📄 PDF manual ingestion & intelligent chunking
+🔎 Hybrid/vector-based document retrieval
+🤖 Agentic troubleshooting workflow with LangGraph
+🧠 Error-code & symptom-based question handling
+🛡️ Evidence grounding and hallucination protection
+📊 Confidence score based on retrieval and evidence quality
+📚 Page/section-level source citations
+⚠️ Conflicting and insufficient evidence detection
+🔐 User-scoped manual access
+🧪 Automated RAG evaluation and integration testing
+Tech Stack
+
+Python | FastAPI | LangGraph | RAG | ChromaDB/Vector Search | Pydantic | LLM APIs | React
+
+The main focus of this project was not just generating answers, but ensuring:
+
+Question → Relevant Retrieval → Evidence → Confidence → Grounded Answer → Correct Citation
+
+This project strengthened my experience in AI Engineering, RAG Systems, Agentic AI, LLM Evaluation, and Backend Development.
+
+#AI #GenerativeAI #RAG #AgenticAI #LangGraph #Python #FastAPI #LLM #MachineLearning #AIEngineering #SoftwareEngineering #ArtificialIntelligence

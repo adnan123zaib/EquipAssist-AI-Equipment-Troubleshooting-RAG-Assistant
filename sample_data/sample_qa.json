@@ -1,0 +1,29 @@
+[
+  {
+    "question": "What does error code E05 mean, and how should I troubleshoot it?",
+    "expected_sections": ["E05: Motor Overtemperature", "1. Safety Instructions"],
+    "expected_code": "E05",
+    "expected_citations": [
+      {"page": 8, "section": "E05: Motor Overtemperature"},
+      {"page": 2, "section": "1. Safety Instructions"}
+    ]
+  },
+  {
+    "question": "The PX-200 shows low hydraulic pressure. What should I inspect?",
+    "expected_sections": ["Low hydraulic pressure symptom", "E12: Low Hydraulic Pressure"],
+    "expected_code": "E12",
+    "expected_citations": [
+      {"page": 8, "section": "E12: Low Hydraulic Pressure"},
+      {"page": 7, "section": "Low hydraulic pressure symptom"}
+    ]
+  },
+  {
+    "question": "When must I use the emergency shutdown procedure?",
+    "expected_sections": ["Emergency Shutdown Procedure", "Contact a Technician"],
+    "expected_code": null,
+    "expected_citations": [
+      {"page": 9, "section": "8. Emergency Shutdown Procedure"},
+      {"page": 10, "section": "9. Contact a Technician"}
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+import {TriangleAlert} from 'lucide-react';import './SafetyAlert.css';export default function SafetyAlert({warnings=[]}){if(!warnings.length)return null;return <div className="safety"><TriangleAlert/><div><b>Safety Warning</b>{warnings.map((w,i)=><p key={i}>{w}</p>)}</div></div>}
