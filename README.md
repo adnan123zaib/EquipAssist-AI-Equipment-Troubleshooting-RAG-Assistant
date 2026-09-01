@@ -1,4 +1,8 @@
-# EquipAssist AI — Equipment Troubleshooting RAG Assistant
+# EquipAssist AI  Equipment Troubleshooting RAG Assistant
+
+
+https://github.com/user-attachments/assets/b164b806-2ddb-4d6d-9330-9718fbc4e58a
+
 
 > Submission project: an agentic RAG assistant that ingests equipment manuals as PDF, answers error-code and symptom questions with step-by-step troubleshooting, source citations, and an explainable confidence score.
 
